@@ -1,0 +1,11 @@
+nav {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    border: 3px solid greenyellow;
+}
+nav a {
+    font-size: 300%;
+    color: tomato;
+    text-decoration: none;
+}
