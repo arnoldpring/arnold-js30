@@ -1,0 +1,35 @@
+
+.container {
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0 auto;
+}
+.picture {
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 2%;
+}
+.controls {
+    margin: 0 auto;
+    width: 50%;
+}
+label,input {
+    margin: 5% 1% 0 1%;
+    font-size: 150%;
+    color: rgb(255, 38, 0);
+    font-style: bold;
+    font-weight: bolder;
+}
+:root {
+    --base: #b948b4;
+    --spacing: 10px;
+    --blur: 10px
+}
+img {
+    width: 100%;
+    margin: 0 auto;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
