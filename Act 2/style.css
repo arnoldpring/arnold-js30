@@ -40,10 +40,7 @@ body {
   }
   .min-hand {
     background-color: goldenrod;
-    width: 41%;
     height: 4px;
-    transform-origin: 100% center;
-    margin-left: 24px;
 
   }
   .sec-hand {
@@ -52,4 +49,7 @@ body {
   }
   .hour-hand {
     background-color: goldenrod;
+    width: 41%;
+    transform-origin: 100% center;
+    margin-left: 24px;
   }
