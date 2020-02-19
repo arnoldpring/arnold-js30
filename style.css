@@ -20,4 +20,16 @@ ul {
 ul li {
     text-align: center;
     width: 33%;
+    border: 2px solid gray;
+    border-radius: 30%;
+    margin: 1%;
+    transition: cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition-duration: 0.3s;
+}
+ul li:hover {
+    padding: 0.5%;
+    background-color: powderblue;
+}
+ul li a:hover {
+    color: yellow;
 }
