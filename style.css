@@ -28,7 +28,7 @@ ul li {
 }
 ul li:hover {
     padding: 0.5%;
-    background-color: rgba (0, 153, 255, 0.5);
+    background-color: rgba(62, 216, 255, 0.5);
 }
 ul li a:hover {
     color: yellow;
